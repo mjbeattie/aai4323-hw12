@@ -2,9 +2,12 @@ name: aai4323_hw11
 channels:
   - conda-forge
   - defaults
+  - pytorch
 
 dependencies:
   - python=3.12
+  - pytorch
+  - cpuonly
 
   # Required pinned versions
   - numpy=1.26.4
@@ -23,11 +26,10 @@ dependencies:
   # Visualization
   - matplotlib
   - seaborn
+  - scipy
 
   # ML and Statistics
   - scikit-learn
-  - statsmodels
-  - imbalanced-learn
 
   # Utilities
   - tqdm
