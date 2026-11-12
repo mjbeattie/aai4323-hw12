@@ -1,5 +1,5 @@
 {
-    "name": "AAI4323 Python Environment",
+    "name": "AAI4323 HW12 Python Environment",
     "image": "mcr.microsoft.com/devcontainers/miniconda:latest",
     "features": {
         "ghcr.io/devcontainers/features/github-cli:1": {}
